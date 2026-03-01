@@ -4,9 +4,9 @@
 let test = "Hello Developer";
 
 if (test === "Hello Developer") {
-  console.log(test);
+  // console.log(test);
 } else {
-  console.log("Wrong Text");
+  // console.log("Wrong Text");
 }
 
 // Block Scope: We can't access declared variable if the the variable into block scope, But only var can access it.
@@ -17,7 +17,7 @@ if (test === "Hello Developer") {
   const team2 = "Barcelona";
 }
 
-console.log(team); //Barcelona
+// console.log(team); //Barcelona
 // console.log(team1); //Error
 // console.log(team2); //Error
 
@@ -30,3 +30,9 @@ function hello() {
 // console.log(color); //Error
 // console.log(color); //Error
 // console.log(color1); //Error
+
+console.log(alu);
+var alu = "alu";
+console.log(alu);
+var alu = "tomato";
+console.log(alu);
